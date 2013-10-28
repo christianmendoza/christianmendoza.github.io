@@ -1,16 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[My Octopress Blog]]></title>
+  <title><![CDATA[Back-End Ramblings]]></title>
   <link href="http://christianmendoza.github.io/atom.xml" rel="self"/>
   <link href="http://christianmendoza.github.io/"/>
-  <updated>2013-10-27T21:18:30-04:00</updated>
+  <updated>2013-10-27T21:28:10-04:00</updated>
   <id>http://christianmendoza.github.io/</id>
   <author>
-    <name><![CDATA[Your Name]]></name>
+    <name><![CDATA[Christian Mendoza]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Learning Git!]]></title>
+    <link href="http://christianmendoza.github.io/blog/2013/10/27/learning-git/"/>
+    <updated>2013-10-27T21:20:00-04:00</updated>
+    <id>http://christianmendoza.github.io/blog/2013/10/27/learning-git</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
   
 </feed>
