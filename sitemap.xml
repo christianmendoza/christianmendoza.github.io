@@ -13,8 +13,16 @@
         <lastmod>2013-10-27T21:51:24-04:00</lastmod>
     </url>
     <url>
+        <loc>http://christianmendoza.github.io/about/</loc>
+        <lastmod>2013-10-27T22:07:28-04:00</lastmod>
+    </url>
+    <url>
         <loc>http://christianmendoza.github.io/blog/archives/</loc>
         <lastmod>2013-10-27T21:51:24-04:00</lastmod>
+    </url>
+    <url>
+        <loc>http://christianmendoza.github.io/git/</loc>
+        <lastmod>2013-10-27T22:08:53-04:00</lastmod>
     </url>
     <url>
         <loc>http://christianmendoza.github.io/</loc>
@@ -23,5 +31,9 @@
     <url>
         <loc>http://christianmendoza.github.io/robots.txt</loc>
         <lastmod>2013-10-27T21:15:42-04:00</lastmod>
+    </url>
+    <url>
+        <loc>http://christianmendoza.github.io/ruby/</loc>
+        <lastmod>2013-10-27T22:07:23-04:00</lastmod>
     </url>
 </urlset>
