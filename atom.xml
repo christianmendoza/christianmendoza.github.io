@@ -4,7 +4,7 @@
   <title><![CDATA[Back-End Ramblings]]></title>
   <link href="http://christianmendoza.github.io/atom.xml" rel="self"/>
   <link href="http://christianmendoza.github.io/"/>
-  <updated>2013-10-27T21:28:10-04:00</updated>
+  <updated>2013-10-27T21:33:32-04:00</updated>
   <id>http://christianmendoza.github.io/</id>
   <author>
     <name><![CDATA[Christian Mendoza]]></name>
@@ -19,6 +19,27 @@
     <updated>2013-10-27T21:20:00-04:00</updated>
     <id>http://christianmendoza.github.io/blog/2013/10/27/learning-git</id>
     <content type="html"><![CDATA[
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Learning Git!]]></title>
+    <link href="http://christianmendoza.github.io/blog/2013/10/21/learning-git/"/>
+    <updated>2013-10-21T21:10:00-04:00</updated>
+    <id>http://christianmendoza.github.io/blog/2013/10/21/learning-git</id>
+    <content type="html"><![CDATA[<p>This is my first blog post, using Octopress, Mou and Git. Here are a few things Steve taught us today:</p>
+
+<p><code>$ git init</code> <em>#Hey Git, start watching everything in this folder</em></p>
+
+<p><code>$ git add .</code> <em>#Hey Git, add everything in this folder to the staging area</em></p>
+
+<p><code>$ git status</code> <em>#Hey Git, what’s going on?</em></p>
+
+<p><code>$ git diff</code> <em>#Hey Git, show me the differences between now and the last commit</em></p>
+
+<p><code>$ git commit -m "Message"</code> <em>#Hey Git, you can take a snapshot now of everything I staged</em></p>
+
+<p><code>$ git checkout "filename"</code> <em>#Hey Git, I was dumb and accidentally deleted this file. Please bring it back from the dead</em></p>
 ]]></content>
   </entry>
   
