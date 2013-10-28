@@ -4,7 +4,7 @@
   <title><![CDATA[Back-End Ramblings]]></title>
   <link href="http://christianmendoza.github.io/atom.xml" rel="self"/>
   <link href="http://christianmendoza.github.io/"/>
-  <updated>2013-10-27T21:33:32-04:00</updated>
+  <updated>2013-10-27T21:37:44-04:00</updated>
   <id>http://christianmendoza.github.io/</id>
   <author>
     <name><![CDATA[Christian Mendoza]]></name>
@@ -14,11 +14,18 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Learning Git!]]></title>
-    <link href="http://christianmendoza.github.io/blog/2013/10/27/learning-git/"/>
-    <updated>2013-10-27T21:20:00-04:00</updated>
-    <id>http://christianmendoza.github.io/blog/2013/10/27/learning-git</id>
-    <content type="html"><![CDATA[
+    <title type="html"><![CDATA[Gitting to Know Ruby]]></title>
+    <link href="http://christianmendoza.github.io/blog/2013/10/26/gitting-to-know-ruby/"/>
+    <updated>2013-10-26T16:09:00-04:00</updated>
+    <id>http://christianmendoza.github.io/blog/2013/10/26/gitting-to-know-ruby</id>
+    <content type="html"><![CDATA[<p>We went over a lot of things during the last class. It started off with a command line/terminal and Git/Github refresher, and then we jumped right into the meaty stuff: Ruby!</p>
+
+<p>We started writing simple Ruby code into IRB (Interactive Ruby Shell), learning about objects and calling some methods and operators. Objects in Ruby respond to messages sent. We learned a little about “Syntactic Sugar,” which is syntax that is designed to make things easier to read or to express. One example is:</p>
+
+<p><code>"steven".send : upcase</code>
+<code>"steven".upcase</code> <em>#syntactic sugar</em></p>
+
+<p>I completed our homework assignment, including the extra one. It was great practice to program Classes and get the code to pass the tests. I’m looking forward to learning more material next class!</p>
 ]]></content>
   </entry>
   
