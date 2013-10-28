@@ -4,7 +4,7 @@
   <title><![CDATA[Back-End Ramblings]]></title>
   <link href="http://christianmendoza.github.io/atom.xml" rel="self"/>
   <link href="http://christianmendoza.github.io/"/>
-  <updated>2013-10-27T22:12:31-04:00</updated>
+  <updated>2013-10-27T22:22:03-04:00</updated>
   <id>http://christianmendoza.github.io/</id>
   <author>
     <name><![CDATA[Christian]]></name>
@@ -12,6 +12,68 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Testing Ccode block filter]]></title>
+    <link href="http://christianmendoza.github.io/blog/2013/10/27/testing-ccode-block-filter/"/>
+    <updated>2013-10-27T22:19:00-04:00</updated>
+    <id>http://christianmendoza.github.io/blog/2013/10/27/testing-ccode-block-filter</id>
+    <content type="html"><![CDATA[<figure class='code'><figcaption><span>homework_for_102813_reader.rb</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+<span class='line-number'>19</span>
+<span class='line-number'>20</span>
+<span class='line-number'>21</span>
+<span class='line-number'>22</span>
+<span class='line-number'>23</span>
+<span class='line-number'>24</span>
+<span class='line-number'>25</span>
+<span class='line-number'>26</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="nb">require</span> <span class="s1">&#39;minitest/autorun&#39;</span>
+</span><span class='line'>
+</span><span class='line'><span class="k">class</span> <span class="nc">Person</span>
+</span><span class='line'>  <span class="kp">attr_reader</span> <span class="ss">:name</span><span class="p">,</span> <span class="ss">:profession</span>
+</span><span class='line'>
+</span><span class='line'>        <span class="k">def</span> <span class="nf">initialize</span> <span class="nb">name</span><span class="p">,</span> <span class="n">profession</span>
+</span><span class='line'>                <span class="vi">@name</span> <span class="o">=</span> <span class="nb">name</span>
+</span><span class='line'>                <span class="vi">@profession</span> <span class="o">=</span> <span class="n">profession</span>
+</span><span class='line'>        <span class="k">end</span>
+</span><span class='line'>
+</span><span class='line'>        <span class="k">def</span> <span class="nf">introduce</span>
+</span><span class='line'>                <span class="s2">&quot;Hi! My name is </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">. I&#39;m a </span><span class="si">#{</span><span class="n">profession</span><span class="si">}</span><span class="s2">&quot;</span>
+</span><span class='line'>        <span class="k">end</span>
+</span><span class='line'>
+</span><span class='line'>        <span class="k">def</span> <span class="nf">introduce_from_across_the_room</span>
+</span><span class='line'>                <span class="n">introduce</span><span class="o">.</span><span class="n">upcase</span>
+</span><span class='line'>        <span class="k">end</span>
+</span><span class='line'><span class="k">end</span>
+</span><span class='line'>
+</span><span class='line'><span class="n">describe</span> <span class="no">Person</span> <span class="k">do</span>
+</span><span class='line'>  <span class="n">it</span> <span class="s2">&quot;is initialized with a name and profession&quot;</span> <span class="k">do</span>
+</span><span class='line'>    <span class="n">person</span> <span class="o">=</span> <span class="no">Person</span><span class="o">.</span><span class="n">new</span> <span class="s2">&quot;Steven&quot;</span><span class="p">,</span> <span class="s2">&quot;Software Developer&quot;</span>
+</span><span class='line'>    <span class="n">person</span><span class="o">.</span><span class="n">introduce</span><span class="o">.</span><span class="n">must_equal</span> <span class="s2">&quot;Hi! My name is Steven. I&#39;m a Software Developer&quot;</span>
+</span><span class='line'>    <span class="n">person</span><span class="o">.</span><span class="n">introduce_from_across_the_room</span><span class="o">.</span><span class="n">must_equal</span> <span class="s2">&quot;HI! MY NAME IS STEVEN. I&#39;M A SOFTWARE DEVELOPER&quot;</span>
+</span><span class='line'>  <span class="k">end</span>
+</span><span class='line'><span class="k">end</span>
+</span></code></pre></td></tr></table></div></figure>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Whoopsie]]></title>
