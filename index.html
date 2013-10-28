@@ -9,33 +9,11 @@
   <meta name="author" content="Christian">
 
   
-  <meta name="description" content="homework_for_102813_reader.rb1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-17
-18
-19
-20
-21
-22
-23
-24
-25
-26
-require &#39;minitest/autorun&#39; class Person &hellip;">
+  <meta name="description" content="2013 Testing code block filter
+Oct 27 2013 Whoopsie
+Oct 27 2013 Gitting to Know Ruby
+Oct 26 2013 Learning Git!
+Oct 21 2013 Recent Posts Testing Code &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -62,262 +40,73 @@ require &#39;minitest/autorun&#39; class Person &hellip;">
 
 <body   >
   <header role="banner"><hgroup>
-  <h1><a href="/">Back-End Ramblings</a></h1>
-  
-    <h2>Gitting to know Ruby on Rails</h2>
-  
+  <div id="header-inner">
+    <span class="first"><a href="/">Back-End Ramblings</a></span>
+    <span><a href="/about">about</a></span>
+    <span><a href="http://www.github.com/">projects</a></span>
+    <span class="last"><a href="/atom.xml" title="subscribe via RSS">rss</a></span>
+  </div>
 </hgroup>
 
 </header>
-  <nav role="navigation"><ul class="subscription" data-subscription="rss">
-  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
-  
-</ul>
-  
-<form action="http://google.com/search" method="get">
-  <fieldset role="search">
-    <input type="hidden" name="q" value="site:christianmendoza.github.io" />
-    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
-  </fieldset>
-</form>
-  
-<ul class="main-navigation">
-  <li><a href="/">Blog</a></li>
-  <li><a href="/blog/archives">Archives</a></li>
-  <li><a href="/about/">About</a></li>
-  <li><a href="/git/">Git</a></li>
-  <li><a href="/ruby/">Ruby</a></li>
-</ul>
-
-</nav>
   <div id="main">
     <div id="content">
-      <div class="blog-index">
+      <div>
+
+<article role="article">
+<div id="blog-archives">
+  
+
   
   
+    
+    <h2>2013</h2>
   
     <article>
       
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2013/10/27/testing-code-block-filter/">Testing Code Block Filter</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2013-10-27T22:19:00-04:00" pubdate data-updated="true">Oct 27<span>th</span>, 2013</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><figure class='code'><figcaption><span>homework_for_102813_reader.rb</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-<span class='line-number'>7</span>
-<span class='line-number'>8</span>
-<span class='line-number'>9</span>
-<span class='line-number'>10</span>
-<span class='line-number'>11</span>
-<span class='line-number'>12</span>
-<span class='line-number'>13</span>
-<span class='line-number'>14</span>
-<span class='line-number'>15</span>
-<span class='line-number'>16</span>
-<span class='line-number'>17</span>
-<span class='line-number'>18</span>
-<span class='line-number'>19</span>
-<span class='line-number'>20</span>
-<span class='line-number'>21</span>
-<span class='line-number'>22</span>
-<span class='line-number'>23</span>
-<span class='line-number'>24</span>
-<span class='line-number'>25</span>
-<span class='line-number'>26</span>
-</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="nb">require</span> <span class="s1">&#39;minitest/autorun&#39;</span>
-</span><span class='line'>
-</span><span class='line'><span class="k">class</span> <span class="nc">Person</span>
-</span><span class='line'>  <span class="kp">attr_reader</span> <span class="ss">:name</span><span class="p">,</span> <span class="ss">:profession</span>
-</span><span class='line'>
-</span><span class='line'>        <span class="k">def</span> <span class="nf">initialize</span> <span class="nb">name</span><span class="p">,</span> <span class="n">profession</span>
-</span><span class='line'>                <span class="vi">@name</span> <span class="o">=</span> <span class="nb">name</span>
-</span><span class='line'>                <span class="vi">@profession</span> <span class="o">=</span> <span class="n">profession</span>
-</span><span class='line'>        <span class="k">end</span>
-</span><span class='line'>
-</span><span class='line'>        <span class="k">def</span> <span class="nf">introduce</span>
-</span><span class='line'>                <span class="s2">&quot;Hi! My name is </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">. I&#39;m a </span><span class="si">#{</span><span class="n">profession</span><span class="si">}</span><span class="s2">&quot;</span>
-</span><span class='line'>        <span class="k">end</span>
-</span><span class='line'>
-</span><span class='line'>        <span class="k">def</span> <span class="nf">introduce_from_across_the_room</span>
-</span><span class='line'>                <span class="n">introduce</span><span class="o">.</span><span class="n">upcase</span>
-</span><span class='line'>        <span class="k">end</span>
-</span><span class='line'><span class="k">end</span>
-</span><span class='line'>
-</span><span class='line'><span class="n">describe</span> <span class="no">Person</span> <span class="k">do</span>
-</span><span class='line'>  <span class="n">it</span> <span class="s2">&quot;is initialized with a name and profession&quot;</span> <span class="k">do</span>
-</span><span class='line'>    <span class="n">person</span> <span class="o">=</span> <span class="no">Person</span><span class="o">.</span><span class="n">new</span> <span class="s2">&quot;Steven&quot;</span><span class="p">,</span> <span class="s2">&quot;Software Developer&quot;</span>
-</span><span class='line'>    <span class="n">person</span><span class="o">.</span><span class="n">introduce</span><span class="o">.</span><span class="n">must_equal</span> <span class="s2">&quot;Hi! My name is Steven. I&#39;m a Software Developer&quot;</span>
-</span><span class='line'>    <span class="n">person</span><span class="o">.</span><span class="n">introduce_from_across_the_room</span><span class="o">.</span><span class="n">must_equal</span> <span class="s2">&quot;HI! MY NAME IS STEVEN. I&#39;M A SOFTWARE DEVELOPER&quot;</span>
-</span><span class='line'>  <span class="k">end</span>
-</span><span class='line'><span class="k">end</span>
-</span></code></pre></td></tr></table></div></figure>
-
-</div>
-  
-  
+<h1><a href="/blog/2013/10/27/testing-code-block-filter/">Testing code block filter</a></h1>
+<time datetime="2013-10-27T22:19:00-04:00" pubdate><span class='month'>Oct</span> <span class='day'>27</span> <span class='year'>2013</span></time>
 
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2013/10/27/whoopsie/">Whoopsie</a></h1>
-    
-    
-      <p class="meta">
-        
 
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2013-10-27T21:48:00-04:00" pubdate data-updated="true">Oct 27<span>th</span>, 2013</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Woe is me. In trying to install a theme I somehow messed up this blog and my Github repo, so I just decided to rebuild it from scratch. I referred back to Steven&rsquo;s slides from 10/21 and was able to get it back online without any issues. Whew!</p>
-</div>
-  
-  
-
-
-    </article>
   
   
     <article>
       
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2013/10/26/gitting-to-know-ruby/">Gitting to Know Ruby</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2013-10-26T16:09:00-04:00" pubdate data-updated="true">Oct 26<span>th</span>, 2013</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>We went over a lot of things during the last class. It started off with a command line/terminal and Git/Github refresher, and then we jumped right into the meaty stuff: Ruby!</p>
-
-<p>We started writing simple Ruby code into IRB (Interactive Ruby Shell), learning about objects and calling some methods and operators. Objects in Ruby respond to messages sent. We learned a little about “Syntactic Sugar,” which is syntax that is designed to make things easier to read or to express. One example is:</p>
-
-<p><code>"steven".send : upcase</code></p>
-
-<p><code>"steven".upcase</code> <em>#syntactic sugar</em></p>
-
-<p>I completed our homework assignment, including the extra one. It was great practice to program Classes and get the code to pass the tests. I’m looking forward to learning more material next class!</p>
-</div>
-  
-  
+<h1><a href="/blog/2013/10/27/whoopsie/">Whoopsie</a></h1>
+<time datetime="2013-10-27T21:48:00-04:00" pubdate><span class='month'>Oct</span> <span class='day'>27</span> <span class='year'>2013</span></time>
 
 
     </article>
+  
+
   
   
     <article>
       
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2013/10/21/learning-git/">Learning Git!</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2013-10-21T21:10:00-04:00" pubdate data-updated="true">Oct 21<span>st</span>, 2013</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>This is my first blog post, using Octopress, Mou and Git. Here are a few things Steve taught us today:</p>
-
-<p><code>$ git init</code> <em>#Hey Git, start watching everything in this folder</em></p>
-
-<p><code>$ git add .</code> <em>#Hey Git, add everything in this folder to the staging area</em></p>
-
-<p><code>$ git status</code> <em>#Hey Git, what’s going on?</em></p>
-
-<p><code>$ git diff</code> <em>#Hey Git, show me the differences between now and the last commit</em></p>
-
-<p><code>$ git commit -m "Message"</code> <em>#Hey Git, you can take a snapshot now of everything I staged</em></p>
-
-<p><code>$ git checkout "filename"</code> <em>#Hey Git, I was dumb and accidentally deleted this file. Please bring it back from the dead</em></p>
-</div>
-  
-  
+<h1><a href="/blog/2013/10/26/gitting-to-know-ruby/">Gitting to Know Ruby</a></h1>
+<time datetime="2013-10-26T16:09:00-04:00" pubdate><span class='month'>Oct</span> <span class='day'>26</span> <span class='year'>2013</span></time>
 
 
     </article>
   
-  <div class="pagination">
-    
-    <a href="/blog/archives">Blog Archives</a>
-    
-  </div>
+
+  
+  
+    <article>
+      
+<h1><a href="/blog/2013/10/21/learning-git/">Learning Git!</a></h1>
+<time datetime="2013-10-21T21:10:00-04:00" pubdate><span class='month'>Oct</span> <span class='day'>21</span> <span class='year'>2013</span></time>
+
+
+    </article>
+  
 </div>
+</article>
+</div>
+
 <aside class="sidebar">
   
     <section>
@@ -400,7 +189,7 @@ require &#39;minitest/autorun&#39; class Person &hellip;">
       var twitterWidgets = document.createElement('script');
       twitterWidgets.type = 'text/javascript';
       twitterWidgets.async = true;
-      twitterWidgets.src = '//platform.twitter.com/widgets.js';
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
       document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
     })();
   </script>
