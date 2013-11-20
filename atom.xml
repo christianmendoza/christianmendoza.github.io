@@ -4,7 +4,7 @@
   <title><![CDATA[Back-End Ramblings]]></title>
   <link href="http://christianmendoza.github.io/atom.xml" rel="self"/>
   <link href="http://christianmendoza.github.io/"/>
-  <updated>2013-11-03T22:03:41-05:00</updated>
+  <updated>2013-11-19T21:59:30-05:00</updated>
   <id>http://christianmendoza.github.io/</id>
   <author>
     <name><![CDATA[Christian]]></name>
@@ -12,6 +12,15 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Rails!]]></title>
+    <link href="http://christianmendoza.github.io/blog/2013/11/19/rails/"/>
+    <updated>2013-11-19T21:52:00-05:00</updated>
+    <id>http://christianmendoza.github.io/blog/2013/11/19/rails</id>
+    <content type="html"><![CDATA[<p>It&rsquo;s been a while since I&rsquo;ve updated. A lot has happened since! We&rsquo;ve finally moved into Rails, and boy is it something! I&rsquo;m eager to learn all this new stuff. I&rsquo;m starting to get a hang of the MVC (Model View Controller) concept; it also helps that I have some experience with programming and databases. Lots of ideas are churning in my head about how to develop my final project web app: Moneyable &mdash; a web-based money manager. Very exciting things to come!</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[The Conditionals]]></title>
